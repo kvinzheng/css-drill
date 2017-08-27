@@ -1,0 +1,45 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background :#F60009;
+  height: 500px;
+  width: 500px;
+}
+
+.first {
+  display: flex;
+  background: #53007A;
+  /*VERTICAL*/
+  align-items: center;
+  /*HORIZONTAL*/
+  justify-content: space-around;
+  /*ORDER  -1 first, highest last */
+  order: 1;
+}
+
+.second {
+  background: #FC9709;
+}
+
+.third {
+  background-color: #A800DF;
+  align-2:flex-end;
+}
+
+.fourth {
+  background: #8BE7E6;
+}
+
+.fifth {
+  background: #93B112;
+}
+.sixth {
+  background: #E6F0BA;
+  order: -1;
+}

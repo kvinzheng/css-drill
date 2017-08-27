@@ -1,0 +1,26 @@
+.common {
+  font-size: 30px;
+  color: white;
+}
+
+.first {
+  background-color: green;
+}
+
+.uncle {
+  background-color: gray;
+}
+
+.parent {
+  position: relative;
+}
+
+.second {
+  background-color: red;
+  position: relative;
+}
+
+.third {
+  background-color: blue;
+  height: 50px;
+}

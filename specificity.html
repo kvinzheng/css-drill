@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div.container {
+            background: green;
+        }
+        body div {
+            background: red;
+        }
+        div.container#main {
+            background: purple;
+        }
+        body #main {
+            background: magenta;
+        }
+        .container {
+            background: blue;
+        }
+        /*div {
+            background: yellow;
+            height: 200px;
+            width: 200px;
+        }*/
+        body div.container#main {
+            background: brown;
+        }
+        .some_text {
+          color: #BDBFEF;
+          font-size: 12px;
+          text-align: center;
+          font-family: helvetica, sans-serif;
+          letter-spacing: -1px;
+          text-transform: lowercase;
+          text-shadow: 0 2px 0 black;
+          line-height: 1.4;
+          font-variant: small-caps;
+        }
+        .borderhere{
+          box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="main">
+        I AM A DIV!
+    </div>
+    <!-- <div> -->
+      <span class="some_text">Hi there!</span>
+    <!-- </div> -->
+    <div class="borderhere">
+      border here
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* Let's line up three 200x200 boxes together */
+
+        /* since divs have a display:block; by default, they will stack on top of each other like blocks */
+
+        div {
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+            background: green;
+        }
+
+        #three, #four {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">I AM A BOX</div>
+    <div id="two">I AM A BOX</div>
+    <div id="three">I AM A BOX</div>
+    <div id="four">I AM A BOX</div>
+</body>
+</html>

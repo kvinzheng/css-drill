@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #outer {
+            /*display: table;*/
+            width: 600px;
+            height: 600px;
+            background-color: blue;
+            color: white;
+            /*text-align: center;*/
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #inner {
+            /*display: table-cell;*/
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            WOAH I'M IN THE MIDDLE
+        </div>
+    </div>
+</body>
+</html>
