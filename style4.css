@@ -1,8 +1,9 @@
 #span-a {
-  float: left;
-  background-color: #cfc;
-  color: #030;
-}
+   float: left;
+   background-color: #cfc;
+   color: #030;
+   '''padding: 1em;'''
+ }
 
 section {
   border: 1px solid blue;

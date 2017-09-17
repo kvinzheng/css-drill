@@ -1,6 +1,6 @@
 .parent {
   background: #43D866;
-  width: 250px;
+  /*width: 250px;*/
   border-radius: 4px;
   padding: 2px;
 }
@@ -9,4 +9,22 @@
   position:absolute;
   top:20px;
   left: 150px;
+}
+
+a {
+  display: inline-block;
+  border-radius: 20px;
+  background: white;
+  border: 1px solid blue;
+
+  margin-top: 20px;
+  margin-bottom:20px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+
+  width:100px;
+  height:100px;
 }

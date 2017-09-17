@@ -25,3 +25,11 @@ As mentioned above, when an element is floated, it is taken out of the normal fl
 
 ## z-index
 z-index property will not apply to statically positioned elements. In order to use z-index the CSS must also include any position value other than static(ie relative, absolute, fixed). Just not static.
+
+## the difference between inline, inline-block, block, none
+
+**inline** accept only margin-left and margin-right. The followings wouldn't work on inline: margin-top, margin-bottom, width, height
+
+**block** always start on a new line. It accept margin-top, right, bottom, left and width/height.
+
+**inline-block** It still act as a inline element and it wouldn't start on a new line. However, it now accepts margin-top, right, bottom, left and width/height.
